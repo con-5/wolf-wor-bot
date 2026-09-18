@@ -1,0 +1,30 @@
+version: "3.1"
+services:
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${ROOT_DATABASE}
+      MONGO_USER: ${MONGO_USER}
+      MONGO_PWD: ${MONGO_PWD}
+      MONGO_DB_NAME: ${MONGO_DB_NAME}
+
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodata:/data/db
+      - ./mongodata/mongo.sh:/docker-entrypoint-initdb.d/mongo-entrypoint.sh:ro
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    volumes:
+      - redisdata:/data
+volumes:
+  mongodata:
+  redisdata:

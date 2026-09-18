@@ -1,0 +1,214 @@
+[
+  {
+    "name": "command_default",
+    "value": "!خواطر"
+  },
+  {
+    "name": "command_default",
+    "value": "!خ"
+  },
+  {
+    "name": "command_help",
+    "value": "مساعدة"
+  },
+  {
+    "name": "command_start",
+    "value": "بدء"
+  },
+  {
+    "name": "command_admin_refresh",
+    "value": "تحديث"
+  },
+  {
+    "name": "command_admin_update",
+    "value": "حالة"
+  },
+  {
+    "name": "command_admin_update",
+    "value": "حاله"
+  },
+  {
+    "name": "command_last",
+    "value": "اخير"
+  },
+  {
+    "name": "command_stop",
+    "value": "ايقاف"
+  },
+  {
+    "name": "command_admin",
+    "value": "مدير"
+  },
+  {
+    "name": "command_admin",
+    "value": "م"
+  },
+  {
+    "name": "command_admin_join",
+    "value": "انضم"
+  },
+  {
+    "name": "command_admin_add",
+    "value": "اضافة"
+  },
+  {
+    "name": "command_admin_add_contact",
+    "value": "اضفني"
+  },
+  {
+    "name": "command_admin_count",
+    "value": "مجموع"
+  },
+  {
+    "name": "command_admin_delete",
+    "value": "حذف"
+  },
+  {
+    "name": "command_admin_show",
+    "value": "عرض"
+  },
+  {
+    "name": "message_admin",
+    "value": "مرحبا بك في اوامر التحكم\nاستخدم !اذكار مدير مساعدة للبدء."
+  },
+  {
+    "name": "message_help",
+    "value": [
+      "مرحبا بك في بوت خواطر\n\n",
+      "!خواطر - لعرض الخواطر عشوائية",
+      "!خواطر بدء <رقم> - لبدء تشغيل الخواطر بشكل تلقائي",
+      "!خواطر ايقاف - لإيقاف تشغيل الخواطر",
+      "!خواطر اخير - لعرض اخر 10 خاطرة",
+      "!خواطر مساعدة - لعرض هذه القائمة"
+    ]
+  },
+  {
+    "name": "message_admin_help",
+    "value": [
+      "مرحبا بك في قائمة الادارة:\n\n",
+      "!اذكار مدير اضافة <الاذكار> - لاضافة الخواطر جديدة",
+      "!خواطر مدير عرض <رقم> - لعرض خاطرة برقمها",
+      "!خواطر مدير حذف <رقم> - لحذف خاطرة برقمها",
+      "!خواطر مدير انضم <رقم> - للانضمام لغرفة برقمها",
+      "!خواطر مدير مساعدة - لعرض هذه القائمة"
+    ]
+  },
+  {
+    "name": "admin_contact_message",
+    "value": "(y) اضفتك"
+  },
+  {
+    "name": "admin_count_message",
+    "value": "/me عدد الغرف المتواجد بها حاليا : {count} غرفة."
+  },
+  {
+    "name": "message_add_success",
+    "value": "(y) تم اضافة الخواطر بنجاح."
+  },
+  {
+    "name": "message_add_fail",
+    "value": "(n) لم يتم اضافة الخواطر."
+  },
+  {
+    "name": "message_delete_success",
+    "value": "(y) تم حذف الخاطرة بنجاح."
+  },
+  {
+    "name": "message_delete_fail",
+    "value": "(n) لم نجد الخواطر بهذا الرقم."
+  },
+  {
+    "name": "message_show_fail",
+    "value": "(n) لم نجد الخاطرة بهذا الرقم."
+  },
+  {
+    "name": "message_start",
+    "value": "(y) سيتم عرض الخواطر كل {duration} دقائق."
+  },
+  {
+    "name": "message_start_error",
+    "value": "(n) العرض التلقائي الخواطر مفعل، استخدم !خواطر ايقاف اولا."
+  },
+  {
+    "name": "message_stop",
+    "value": "(y) تم ايقاف تشغيل العرض التلقائي الخواطر."
+  },
+  {
+    "name": "message_stop_error",
+    "value": "(n) لم يتم تفعيل العرض التلقائي"
+  },
+ {
+    "name": "admin_update_message",
+    "value": "- تم تحديث الحالة الى : {status}"
+  },
+  {
+    "name": "message_last",
+    "value": "قائمة بأخر 10 خاطرة تم ارسالها :\n\n{list}"
+  },
+  {
+    "name": "message_last_error",
+    "value": "(n) لم يتم ارسال خاطرة في هذه الغرفة بعد."
+  },
+  {
+    "name": "error_kid_must_be_number",
+    "value": "(n) رقم الخاطرة لابد أن يكون رقماً."
+  },
+  {
+    "name": "error_duration_must_be_number",
+    "value": "(n) المدة لابد أن تكون رقماً."
+  },
+  {
+    "name": "error_duration_between_5_and_90",
+    "value": "(n) المدة لابد أن تكون رقماً بين 5 و 90."
+  },
+  {
+    "name": "admin_join_log",
+    "value": "/alert ⚙ أمر إداري\n\n•الامر:انضمام\n•المدير : {adminNickname} ({adminID})\n•الغرفة:[{groupName}] ({groupID})"
+  },
+  {
+    "name": "auto_leave_log",
+    "value": "/me 📊 تقرير الصيانة:\n\nعدد الغرف المتبقي:{count}\nعدد الغرف الخاملة:{inactiveCount}\nخرجت من الغرف التالية:\n{groupsName}"
+  },
+  {
+    "name": "auto_leave_message",
+    "value": "/me عذراً، لم تقومواً بتشغيل البوت خلال الخمسة أيام الماضية، لذلك سوف أغادر الغرفة. :("
+  },
+  {
+    "name": "admin_refresh_message",
+    "value": "/me تم تحديث الغرف التالية :\n{list}"
+  },
+  {
+    "name": "error_text_between_15_and_255",
+    "value": "(n) الاذكار لابد ان تكون بين 15 و 255 حرفاً"
+  },
+  {
+    "name": "message_admin_join",
+    "value": [
+      { "code": 200, "msg": "(y) تم الانضمام للغرفة بنجاح." },
+      { "code": 404, "msg": "(n) الغرفة غير موجودة." },
+      { "code": 401, "subCode": 1, "msg": "(n) الغرفة محمية بكلمة مرور." },
+      { "code": 403, "subCode": 4, "msg": "(n) مستوى دخول الغرفة عالي." },
+      { "code": 403, "subCode": 100, "msg": "(n) الغرفة ممتلئة." },
+      {
+        "code": 403,
+        "subCode": 101,
+        "msg": "(n) لا يمكن للبوت دخول غرف أكثر."
+      },
+      { "code": 403, "subCode": 105, "msg": "(n) الغرفة ليست موجودة حاليا." },
+      { "code": 403, "subCode": 107, "msg": "(n) البوت متبند من الغرفة." },
+      { "code": 403, "subCode": 110, "msg": "(n) البوت موجود بالغرفة اصلا." },
+      {
+        "code": 403,
+        "subCode": 112,
+        "msg": "(n) الغرفة محظورة على الاعضاء الجدد."
+      },
+      { "code": 403, "subCode": 115, "msg": "(n) الغرفة مغلقة." },
+      { "code": 403, "subCode": 116, "msg": "(n) يمكن انك مسوي حسابات كثيرة؟" },
+      {
+        "code": 403,
+        "subCode": 117,
+        "msg": "(n) يمكن الانضمام للغرفة هذي من خلال لعبة."
+      }
+    ]
+  }
+]
