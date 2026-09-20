@@ -1,0 +1,10 @@
+keyword: khwater
+app:
+  defaultLanguage: ar
+  developerId: 435
+  commandSettings:
+    ignoreOfficialBots: true
+    ignoreUnofficialBots: true
+  networkSettings:
+    retryMode: 1
+    retryAttempts: 1
